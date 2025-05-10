@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+  }
+  
+  header, main, footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #a3b4f0; /* bluish tone */
+  }
+  
+  main {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  
+  section {
+    background-color: white;
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  footer {
+    text-align: left;
+  }
+  
+  /* Media Query for wider screens */
+  @media screen and (min-width: 500px) {
+    header {
+      background-color: black;
+      color: white;
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
